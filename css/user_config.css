@@ -1,0 +1,208 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:rgba(0, 0, 0, 0.1);
+}
+
+header{
+    max-width: 100%;
+    padding: 0px;
+    background-color: #056467;
+}
+
+/*menu-header*/
+
+.container-menu{
+    max-width: 1330px;
+    margin: 0 auto;
+
+}
+
+
+.container-menu img{
+    max-width: 60px;
+    margin:10px 0 10px 0;
+
+}
+
+.menu-nav{
+    float: right;
+}
+.titulo-logo {
+    color:white !important;
+    font-weight: 500;
+    font-size: 1.1em;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 33px;
+    padding-left: 10px;
+}
+
+
+.menu-nav a{
+    font-size: 1.4em;
+    display: block;
+    padding:10px;
+    text-decoration: none;
+    color: #056367 !important;
+    text-transform: uppercase;
+    border: solid 2px rgb(255, 255, 255)!important ;
+}
+
+.menu-nav li{
+    display:inline-block;
+    list-style: none;
+    margin:10px 0 10px 0;
+    background-color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.container-back{
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 90px;
+    background-color:rgba(0, 0, 0, 0.2);
+}
+
+
+.container-box h1{
+    font-size: 1.5em;
+    padding:10px 0px 10px 50px;
+    color: rgb(54, 54, 54);
+}
+.container-box h2{
+    text-transform: uppercase;
+    font-size: 1.1em;
+    color: rgb(74, 74, 74);
+    margin-top: 30px;
+}
+.h2-box{
+    padding:10px 0px 50px 50px;
+}
+
+.inp{
+    width: 500px;
+    height: 40px;
+    box-shadow: 0 0 0 0;
+    border: solid rgba(0, 0, 0, 0.4) 2px;
+    outline: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    display: block;
+}
+.inp:valid{
+    font-size: 1em;
+}
+.inp:disabled{
+    background-color: #726e6e;
+}
+.inp:enabled{
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.submit[type="submit"]{
+    margin-top: 2rem;
+    padding: 0.4rem;
+    background: linear-gradient(to left, #99dbf5, #056367);
+    cursor: pointer;
+    color: #252525;
+    font-size: 1em;
+    font-weight: 300;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+  
+.submit:hover{
+    letter-spacing: 0.5px;
+    background: linear-gradient(to right, #056367, #4cbdf2)
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.botao2{
+    font-size: 1em;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    border: solid 2px #056367 ;
+    list-style: none;
+    background-color: #056367;
+    padding:10px;
+    font-weight: bold;
+}
+
+
+/*footer*/
+
+.footer-container{
+    width: 100%;
+    background-color: #056367;
+    place-items: center;
+}
+
+.footer-box{
+    max-width: 1330px;
+    margin: 0 auto;
+    place-items: center;
+}
+
+.image-box{
+    max-width: 1330px;
+    margin: 0 auto;
+    place-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-logo{
+    margin-top: 10px;
+    max-width: 60px;
+}
+
+.footer-logo:hover{
+    transform: scaleY(1.1) scaleX(1.1) scaleZ(1.1);
+    transition: all 0.5s ease;
+    text-shadow: 0 0 10px white;
+}
+
+.icons-box{
+    color: white;
+    justify-content: center;
+    display: flex;
+    margin-top: 2px;
+    flex-wrap: wrap;
+}
+
+.fab{
+    color: white;
+    font-size: 35px;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+.fab:hover{
+    transform: scaleY(1.1) scaleX(1.1) scaleZ(1.1);
+    transition: all 0.5s ease;
+    text-shadow: 0 0 10px white;
+}
+
+.final-box{
+    max-width: 100%;
+    background-color: #252525;
+    font-family: 'lexend', sans-serif;
+    text-align: center;
+    font-size: 0.9em;
+    color:white;
+}
+@media(max-width:600px){
+    .inp{
+        max-width: 90%;
+    }
+}
