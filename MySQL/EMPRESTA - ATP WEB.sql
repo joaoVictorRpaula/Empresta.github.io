@@ -3,15 +3,15 @@ use empresta;
 
 create table Cliente(
 	id int auto_increment primary key,
-    nomeCliente varchar(50),
-    phone varchar(20),
-    username varchar(20),
-    senha varchar(32)
+    	nomeCliente varchar(50),
+    	phone varchar(20),
+    	username varchar(20),
+    	senha varchar(32)
 );
 
 insert into Cliente(nomeCliente,phone, username, senha)
 values
-("João Victor","987772818", "jvsmlzz", md5(12345));
+("João Victor","982332818", "admin", md5(12345));
 
 SELECT * FROM Cliente ;
 SELECT username FROM Cliente WHERE id = 1;
